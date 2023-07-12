@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../JS/ajaxCalls.js"></script>
+    <script src="https://kit.fontawesome.com/04f9cdec61.js" crossorigin="anonymous"></script>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.13.1/datatables.min.css" />
+
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.13.1/datatables.min.js"></script>
+
+
+    <script>
+
+
+
+        $(document).ready(function () {
+
+            if (location.hostname == "localhost") {
+                apiUser = 'https://localhost:7171/api/Users/';
+                apiOrders ='https://localhost:7171/api/Orders/'
+            }
+            else {
+                apiUser = 'https://proj.ruppin.ac.il/cgroup31/test2/tar1/api/Users/';
+                apiOrders = 'https://proj.ruppin.ac.il/cgroup31/test2/tar1/api/Orders/';
+
+            }
+
+            usersarr = [];
+            user = "";
+            user = JSON.parse(sessionStorage.getItem("user"));
+            getUsers();
+            $('#Goback').click(function () {
+                location.href = 'FlatPage.html';
+            });
+
+        });
+
+        $(document).on('change', ':checkbox', function () {
+            email = this.id;
+            email = (encodeURIComponent(email));
+            ajaxCall("PUT", apiUser+email, email, putSCB, putECB);
+
+        });
+
+        $(document).on('change', '#monthDDL', function () {
+            month = $("#monthDDL").val();
+            ajaxCall("GET", apiOrders + month, month, getSCB, getECB);
+
+        });
+
+        function getSCB(data) {
+            RenderTable(data);
+        }
+        function getECB(err) {
+            console.log(err);
+        }
+        function putSCB(data) {
+            alert("yay");
+        }
+        function putECB(err) {
+            console.log(err);
+        }
+        function RenderTable(data) {
+            str = `<table><tr><th> City </th><th> Average Price </th></tr>`
+            for (var i = 0; i < data.length; i++) {
+                str += `<tr><td>${data[i].city}</td><td>${data[i].avgPrice}</td>`
+            }
+                
+            $("#resDiv").html(str);
+            
+
+        }
+        function FilterUsers(usersarr) {
+            temparr = [];
+            for (var i = 0; i < usersarr.length; i++) {
+                if (usersarr[i].isAdmin != true) {
+                    temparr.push(usersarr[i]);
+                }
+            }
+            return temparr;
+        }
+
+        function getUsers() {
+            ajaxCall("GET", apiUser, "", getUserSCB, getECB);
+        }
+
+      
+        function ChangeStatus(email) {
+            var email = email;
+            console.log(email);
+        }
+
+        function getUserSCB(data) {
+            usersarr = data;
+            usersarr = FilterUsers(usersarr);
+            
+
+            try {
+                tbl = $('#usersTable').DataTable({
+                    data: usersarr,
+                    pageLength: 5,
+                    columns: [
+                        { data: "firstName" },
+                        { data: "familyName" },
+                        { data: "email" },
+                        { data: "password" },
+                        {
+                            data: "isActive",render: function(data, type, row, meta) {
+                                if (data == true)
+                                    return `<input id="${row.email}" type="checkbox" checked />`;
+                                if (data==false)
+                                    return `<input id="${row.email}" type="checkbox" unchecked />`;
+                            } }
+                    ],
+                });
+            }
+
+            catch (err) {
+                console.log(err);
+            }
+        }
+        function getECB(err) {
+            console.log(err);
+        }
+
+
+    </script>
+</head>
+<body>
+    <button id="Goback" class='buttonForm'>Back</button>
+    <table id="usersTable" class="display compact" style="width:100%">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Active status</th>
+            </tr>
+        </thead>
+    </table>
+    <label>Choose month for report:</label>
+
+    <select id="monthDDL">
+        <option value="-1">Choose</option>
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+    </select>
+    <div id="resDiv"></div>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../JS/ajaxCalls.js"></script>
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" />
+    <title></title>
+    <script>
+
+        $(document).ready(function () {
+
+            if (location.hostname == "localhost") {
+                api = 'https://localhost:7171/api/Orders';
+                
+            }
+            else {
+                api = 'https://proj.ruppin.ac.il/cgroup31/test2/tar1/api/Orders';
+              
+            }
+            
+            VacayArr = [];
+            flat = JSON.parse(sessionStorage.getItem("flat"));
+            user = JSON.parse(sessionStorage.getItem("user"));
+            let strFlat = `<input type="number" class="form-control" id="FlatIDTB" value="${flat.id}" disabled required >`
+            let strUser = `<input type="text" class="form-control" id="UserIdTB" value="${user.email}" disabled required >`
+            $('#FlatIdDiv').append(strFlat);
+            $('#UserEmailDiv').append(strUser);
+            $("#pForm").submit(f1);
+            getVacations();
+
+        });
+
+        function getVacations() {
+            ajaxCall("GET", api, "", getSCB, getECB);
+        }
+
+        function getSCB(data) {
+            VacayArr = data;
+           
+          
+        }
+
+        function getECB(err) {
+            console.log("getERR")
+
+        }
+
+        function CheckDates() {
+            let startDate = new Date($("#StartDate").val());
+            let endDate = new Date($("#EndDate").val());
+            const today = new Date();
+
+            if (startDate > endDate) {
+                alert("End date need to be bigger then start date");
+                $("#EndDate").val("");
+            }
+            if (startDate < today) {
+                alert("Start date need to be bigger than today");
+                $("#StartDate").val("");
+            }
+        }
+
+        function f1() {
+            AddVacation();
+            return false;
+        }
+
+        function AddVacation() {
+            Vacation = { // Note that the name of the fields must be identical to the names of the properties of the object in the server
+                Id: (VacayArr.length + 100),
+                UserId: $("#UserIdTB").val(),
+                FlatId: $("#FlatIDTB").val(),
+                StartDate: $("#StartDate").val(),
+                EndDate: $("#EndDate").val()
+            }
+            ajaxCall("POST", api, JSON.stringify(Vacation), postSCB, postECB);
+            
+            $("#StartDate").val("");
+            $("#EndDate").val("");
+        }
+
+        function postSCB(data) {
+            if (data == false) {
+                postECB(false);
+            }
+            else {
+                getVacations();//update vacay arry
+                alert("Your vacation was successfully added!");
+            }
+        }
+
+        function postECB(err) {
+            console.log(err);
+            alert("Invaid dates");
+        }
+
+        function VacationRender() {
+            $('#vacationRender').html("");
+            let str = "";
+            for (var i = 0; i < VacayArr.length; i++) {
+                let startDate = VacayArr[i].startDate.split('T')[0];
+                let endDate = VacayArr[i].endDate.split('T')[0];
+                
+                str += "<div class='card '>";
+                str += "<div class='cardBody'>";
+                str += `<div class='cardTitle'><h4> Vacation ID: ${VacayArr[i].id}</h4></div> `
+                str += `<h6>User ID:</h6><p>${VacayArr[i].userId}<\p>`
+                str += `<h6>Flat ID </h6><p>${VacayArr[i].flatId} </p >`
+                str += `<h6>Dates:</h6><p>${startDate} until ${endDate}  </p >`
+                str += "</div>";
+                str += "</div>";
+                str += "</div>";
+            }
+            $('#vacationRender').append(str);
+        }
+ 
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="upper">
+            <div class="row">
+                <h2>Order Your Dream Vacation</h2>
+                <form id="pForm">
+                    <div id="UserEmailDiv"class="form-group ">
+                        <label for="userId">User ID</label>
+                    </div>
+                    <div id="FlatIdDiv" class="form-group ">
+                        <label for="address">Flat ID</label>
+                    </div>
+                    <div class="form-group ">
+                        <label>Start Date: </label>
+                        <input type="date" id="StartDate" name="StartDate" onchange="CheckDates()" required>
+                    </div>
+                    <div class="form-group ">
+                        <label>End Date: </label> <br />
+                        <input type="date" id="EndDate" name="EndDate" onchange="CheckDates()" required>
+                    </div>
+                    <div class="row">
+                        <input class="button" type="submit" value="Order My Vacation" /><br />
+                        </div>
+                </form>
+                <div class="row">
+                    <br />
+                    <button class="button form-group" onclick="VacationRender()">Show All Vacations</button>
+                </div>               
+                <hr />
+            </div>
+        </div>
+        <div id="down">
+            <div class="row" id="vacationRender">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

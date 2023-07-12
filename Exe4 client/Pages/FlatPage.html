@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../JS/ajaxCalls.js"></script>
+    <script src="https://kit.fontawesome.com/04f9cdec61.js" crossorigin="anonymous"></script>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" />
+
+
+
+    <title></title>
+
+    <script>
+        $(document).ready(function () {
+
+
+            if (location.hostname == "localhost") {
+                api = 'https://localhost:7171/api/Flats';
+                apiUser = 'https://localhost:7171/api/Users';
+            }
+            else {
+                api = 'https://proj.ruppin.ac.il/cgroup31/test2/tar1/api/Flats';
+                apiUser = 'https://proj.ruppin.ac.il/cgroup31/test2/tar1/api/Users';
+            }
+
+
+            flatsarr = [];
+            usersarr = [];
+            user = "";
+            needToGoBack = false;
+            tempid = -1;
+
+            getFlats();
+            getUsers();
+
+            $("#pForm").submit(f1);
+            $("#login-form").submit(f2);
+            $("#creat-form").submit(f3);
+            $("#update-form").submit(f4);
+
+            $('#logoutBtn').click(Logoutfunc);
+            $('#logoutBtn').hide();
+            $('#AdminBtn').hide();
+            $('#opener3').hide();
+
+            $('#AdminBtn').click(function () {
+                location.href = 'Admin.html';
+            });
+
+            $(function () {
+                $("#dialog-1").dialog({
+                    autoOpen: false,
+                });
+                $("#dialog-2").dialog({
+                    autoOpen: false,
+                });
+                $("#dialog-3").dialog({
+                    autoOpen: false,
+                });
+                $("#opener").click(function () {//handel login
+                    $("#dialog-1").dialog("open");
+                    $("#email").val("");
+                    $("#password").val("");
+                });
+                $("#opener2").click(function () {//handel creat an account
+                    $("#dialog-2").dialog("open");
+                    $("#dialog-1").dialog("close");
+                });
+                $("#opener3").click(function () {//handel update user
+                    $("#firstnameUp").val(user.firstName);
+                    $("#familynameUp").val(user.familyName);
+                    $("#passwordUp").val(user.password);
+                    $("#dialog-3").dialog("open");
+
+                });
+            });
+        });
+
+        //--------------------------------------------------------------------------------------------------
+        // Handel Flats
+        //--------------------------------------------------------------------------------------------------
+
+        function f1() {
+
+            AddFlat();
+            return false;
+        }///add flat form
+
+        function getFlats() {
+            ajaxCall("GET", api, "", getSCB, getECB);
+        }
+
+        function getSCB(data) {
+            flatsarr = data;
+            console.log(flatsarr);
+            FlatsRender();
+
+        }
+
+        function getECB(err) {
+            console.log(err);
+        }
+
+        function AddFlat() {
+
+            // createa a JSON object called Flat
+            Flat = { // Note that the name of the fields must be identical to the names of the properties of the object in the server
+                Id: (flatsarr.length + 1),
+                City: $("#cityDataList").val(),
+                Address: $("#addressTB").val(),
+                NumOfRooms: $("#roomsTB").val(),
+                Price: $("#priceTB").val()
+            }
+            ajaxCall("POST", api, JSON.stringify(Flat), postSCB, postECB);
+
+            $("#cityDataList").val("");
+            $("#addressTB").val("")
+            $("#priceTB").val("");
+            $("#roomsTB").val("");
+
+
+        }
+
+        function postSCB(data) {
+            getFlats();
+        }
+
+        function postECB(err) {
+            alert("post Err");
+        }
+
+        function FlatsRender() {
+            $('#flatsRender').html("");
+            let str = "";
+            for (var i = 0; i < flatsarr.length; i++) {
+                str += "<div class='card '>";
+                str += "<div class='cardBody'>";
+                str += `<div class='cardTitle'><h5> Flat Id: ${flatsarr[i].id}</h5></div> `
+                str += `<h6>Location:</h6> <p>${flatsarr[i].address}, ${flatsarr[i].city}</p>`
+                str += `<h6>Number of Rooms: </h6><p>${flatsarr[i].numOfRooms} </p >`
+                str += `<h6>Price:</h6><p> ${flatsarr[i].price} </p >`
+                str += `<button onclick="RentBtn(${flatsarr[i].id})" class="buttonForm"> Rent </button>`
+                str += "</div>";
+                str += "</div>";
+                str += "</div>";
+            }
+
+            $('#flatsRender').append(str);
+        }
+
+        function RentBtn(id) {
+            if (sessionStorage.length == 0)//no one is logged in
+            {
+                tempid = id;
+                needToGoBack = true;
+                alert("please login first");
+                $("#dialog-1").dialog("open");
+
+            }
+            else {
+                for (var i = 0; i < flatsarr.length; i++) {
+                    if (flatsarr[i].id == id) {
+                        flat = flatsarr[i];
+                    }
+
+                }
+                sessionStorage.setItem('flat', JSON.stringify(flat));
+                location.href = "VacationsPage.html";
+            }
+
+
+        }
+
+        //--------------------------------------------------------------------------------------------------
+        // Handel Users
+        //--------------------------------------------------------------------------------------------------
+        function getUsers() {
+            ajaxCall("GET", apiUser, "", getUserSCB, getECB);
+        }
+
+        function getUserSCB(data) {
+            usersarr = data;
+            console.log(usersarr);
+        }
+
+        ////login functions////
+
+        function f2() {
+            email = $("#email").val();
+            password = $("#password").val();
+            LoginFunc(email, password);
+            $("#dialog-1").dialog("close");
+            return false;
+        }//login form
+
+        function LoginFunc(email, password) {
+
+            messege = 0;
+
+            for (var i = 0; i < usersarr.length; i++) {
+                if (usersarr[i].email == email && usersarr[i].password == password) {
+                    messege = 1;
+                    user = usersarr[i];
+                    sessionStorage.setItem('user', JSON.stringify(user));
+                }
+                if (usersarr[i].email == email && usersarr[i].password != password) {
+                    messege = 2;
+                }
+                if (usersarr[i].email == email && usersarr[i].password == password && usersarr[i].isActive==false) {
+                    messege = 3;
+                }
+
+
+            }
+            if (messege == 1) {
+
+                $("#opener").hide();
+                $('#logoutBtn').show();
+                $('#opener3').show();
+                $("#Welcomelabel").append("Welcome Back,  " + user.firstName);
+                if (needToGoBack) {
+                    RentBtn(tempid);
+                }
+                if (user.isAdmin==true) {
+                    $('#AdminBtn').show();
+
+                }
+
+            }
+            if (messege == 2) {
+                alert("incorrect password");
+
+            }
+            if (messege == 0) {
+                alert("You dont have an account, please create one");
+            }
+            if (messege == 3) {
+                alert("This user is not active");
+            }
+
+
+        }
+
+        function Logoutfunc() {
+            sessionStorage.clear();
+            user = "";
+            $("#opener").show();
+            $('#logoutBtn').hide();
+            $('#opener3').hide();
+            $("#label").html("");
+            $("#Welcomelabel").html("");
+
+        }
+
+        ///create new account functions////
+
+        function f3() {
+            SendUser2DB();
+            return false;
+
+        }//create new account form
+
+        function SendUser2DB() {
+            User2DB = {
+                firstName: $("#firstname").val(),
+                familyName: $("#familyname").val(),
+                email: $("#email2").val(),
+                password: $("#password2").val(),
+                isActive: true,
+                isAdmin: false
+
+            }
+
+            ajaxCall("POST", apiUser, JSON.stringify(User2DB), postUserSCB, postECB);
+
+            $("#firstname").val("");
+            $("#familyname").val("");
+            $("#email2").val("");
+            $("#password2").val("");
+        }
+
+        function postUserSCB() {
+            alert("Your account was added");
+            $("#dialog-2").dialog("close");
+            user = User2DB;
+            usersarr.push(user);
+            getUsers();
+            LoginFunc(user.email, user.password);
+        }
+
+        ////update user info functions////
+
+        function f4() {
+
+
+            UpdateUser();
+            return false;
+        }//update info form
+
+        function UpdateUser() {
+
+            UpdatedUser = {
+                firstName: $("#firstnameUp").val(),
+                familyName: $("#familynameUp").val(),
+                email: user.email,
+                password: $("#passwordUp").val()
+            }
+            user = UpdatedUser;
+            ajaxCall("PUT", apiUser, JSON.stringify(UpdatedUser), putSCB, putECB);
+
+
+
+
+        }
+
+        function putSCB() {
+            alert("Your changes was saved");
+            $("#dialog-3").dialog("close");
+            $("#Welcomelabel").html("Welcome Back,  " + user.firstName);
+            $("#firstnameUp").val("");
+            $("#familynameUp").val("")
+            $("#passwordUp").val("");
+            getUsers();
+
+        }
+
+        function putECB() {
+            alert("put err");
+        }
+
+        //--------------------------------------------------------------------------------------------------
+        // END JS
+        //--------------------------------------------------------------------------------------------------
+
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <br />
+        <div id="UpperBar">
+            <div id="loginBar">
+                <button id="opener" class="buttonForm">
+                    Login <i class="fa-solid fa-user"></i>
+                </button>
+            </div>
+            <div id="afterlogin">
+                <h4 id="Welcomelabel"></h4>
+                <button id='logoutBtn' class='buttonForm'>Logout <i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+                <button id='AdminBtn' class='buttonForm'>Users Data </button>
+
+                <button id='opener3' class='buttonForm'>Update Your info <i class="fa-solid fa-pen"></i></button>
+            </div>
+        </div>
+        <br />
+        <hr />
+
+        <div id="upper">
+            <div class="row">
+                <h2>Insert A new Flat</h2>
+                <form id="pForm">
+                    <div class="form-group ">
+                        <label for="city">City</label>
+                        <input placeholder="Select City" required class="form-control" id="cityDataList" list="city" />
+                        <datalist placeholder="Enter the flat address" name="city" id="city" required>
+                            <option value="TLV" />
+                            <option value="Haifa" />
+                            <option value="Jerusalem" />
+                            <option value="Eilat" />
+                        </datalist>
+                    </div>
+                    <div class="form-group ">
+                        <label for="address">Address</label>
+                        <input type="text" maxlength="30" class="form-control" id="addressTB" placeholder="Enter the flat address" required>
+                    </div>
+                    <div class="form-group  ">
+                        <label for="price">Price</label>
+                        <input type="number" min="1" class="form-control" id="priceTB" placeholder="Enter the price" required />
+                    </div>
+                    <div class="form-group ">
+                        <label for="numofrooms">Number Of Rooms</label>
+                        <input type="number" min="1" max="10" class="form-control" id="roomsTB" placeholder="Enter number of rooms" required />
+                    </div>
+                    <input class="buttonForm" type="submit" value="Submit" />
+                </form>
+                <hr />
+            </div>
+        </div>
+        <div id="down">
+            <div class="row" id="flatsRender">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="dialog-1">
+        <form id="login-form">
+            <p>
+                <input type="email" id="email" name="email" placeholder="Email Address" required><i class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                <input type="password" id="password" name="password" placeholder="password" required><i class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                <input class="buttonForm" type="submit" id="login" value="Login">
+            </p>
+            <hr />
+        </form>
+        <div id="create-account-wrap">
+            <lable>Not a member? <button class="buttonForm" id="opener2">Creat Acoount </button><p>
+        </div><!--create-account-wrap-->
+    </div><!--login-form-wrap-->
+
+    <div id="dialog-2">
+        <form id="creat-form">
+            <p>
+                <input type="text" id="firstname" name="firstname" placeholder="Your First Name" required><i class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                <input type="text" id="familyname" name="familyname" placeholder="Your Last Name" required><i class="validation"><span></span><span></span></i>
+            </p>
+
+            <p>
+                <input type="email" id="email2" name="email" placeholder="Email Address" required><i class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                <input type="password" id="password2" name="password" placeholder="password" required><i class="validation"><span></span><span></span></i>
+            </p>
+
+            <p>
+                <input class="buttonForm" type="submit" id="creatAcc" onclick="SendUser2DB()" value="Creat Account">
+            </p>
+        </form>
+
+    </div><!--creat-form-wrap-->
+
+    <div id="dialog-3">
+        <form id="update-form">
+            <p>
+                First Name: <input type="text" id="firstnameUp" name="firstname"><i class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                Last Name:<input type="text" id="familynameUp" name="familyname"><i class="validation"><span></span><span></span></i>
+            </p>
+
+
+            <p>
+                Password:  <input type="password" id="passwordUp" name="password"><i class="validation"><span></span><span></span></i>
+            </p>
+
+            <p>
+                <input class="buttonForm" type="submit" id="updateUserBtn" value="Update Your Info!">
+            </p>
+        </form>
+
+    </div><!--update-form-wrap-->
+    <!-- HTML !-->
+    
+
+   
+
+</body>
+</html>

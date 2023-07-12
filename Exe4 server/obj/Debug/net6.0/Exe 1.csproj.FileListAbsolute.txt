@@ -1,0 +1,199 @@
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\appsettings.json
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Exe 1.exe
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Exe 1.deps.json
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Exe 1.runtimeconfig.json
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Exe 1.dll
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Exe 1.pdb
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.AssemblyInfo.cs
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\staticwebassets\msbuild.Exe 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\staticwebassets\msbuild.build.Exe 1.props
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Exe 1.props
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Exe 1.props
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\scopedcss\bundle\Exe 1.styles.css
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.csproj.CopyComplete
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.dll
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\refint\Exe 1.dll
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.pdb
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\Exe 1.genruntimeconfig.cache
+C:\Users\user\Desktop\oshrit\Studies\Year D\Semester A\Internetion 2\Home work\Exe 1\Exe 1\obj\Debug\net6.0\ref\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\refint\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\appsettings.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Exe 1.exe
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Exe 1.deps.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Exe 1.runtimeconfig.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.csproj.AssemblyReference.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.AssemblyInfoInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.AssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.csproj.CoreCompileInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\scopedcss\bundle\Exe 1.styles.css
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.csproj.CopyComplete
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\Exe 1.genruntimeconfig.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe1p3\obj\Debug\net6.0\ref\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\appsettings.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Exe 1.exe
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Exe 1.deps.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Exe 1.runtimeconfig.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.csproj.AssemblyReference.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.AssemblyInfoInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.AssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.csproj.CoreCompileInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.Exe 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.build.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\scopedcss\bundle\Exe 1.styles.css
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.csproj.CopyComplete
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\refint\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\Exe 1.genruntimeconfig.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe2 server\obj\Debug\net6.0\ref\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\appsettings.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Exe 1.exe
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Exe 1.deps.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Exe 1.runtimeconfig.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.csproj.AssemblyReference.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.AssemblyInfoInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.AssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.csproj.CoreCompileInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.Exe 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.build.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\scopedcss\bundle\Exe 1.styles.css
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.csproj.CopyComplete
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\refint\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\Exe 1.genruntimeconfig.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\exe2\Exe2 server\obj\Debug\net6.0\ref\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\appsettings.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Exe 1.exe
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Exe 1.deps.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Exe 1.runtimeconfig.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.csproj.AssemblyReference.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.AssemblyInfoInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.AssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.csproj.CoreCompileInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\staticwebassets\msbuild.Exe 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\staticwebassets\msbuild.build.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\scopedcss\bundle\Exe 1.styles.css
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.csproj.CopyComplete
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\refint\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\Exe 1.genruntimeconfig.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\obj\Debug\net6.0\ref\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe3\Exe3 server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\appsettings.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Exe 1.exe
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Exe 1.deps.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Exe 1.runtimeconfig.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.csproj.AssemblyReference.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.AssemblyInfoInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.AssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.csproj.CoreCompileInputs.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\staticwebassets\msbuild.Exe 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\staticwebassets\msbuild.build.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Exe 1.props
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\scopedcss\bundle\Exe 1.styles.css
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.csproj.CopyComplete
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\refint\Exe 1.dll
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.pdb
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\Exe 1.genruntimeconfig.cache
+C:\Users\talfr\Desktop\טל\שנה ד\סמסטר א\צד שרת\מטלות\Exe4\Exe4 server\obj\Debug\net6.0\ref\Exe 1.dll
